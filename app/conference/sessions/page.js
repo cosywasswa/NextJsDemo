@@ -23,7 +23,7 @@ const page = async () => {
                             {
                                 speakers &&
                                 speakers.map((speaker) => (
-                                    <h3 className={styles.titleText}>{speaker.name}</h3>
+                                    <h3 key={speaker.id} className={styles.titleText}>{speaker.name}</h3>
                                 ))
                             }
                             <h4 className={styles.descText}>{description}</h4>
