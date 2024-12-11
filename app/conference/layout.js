@@ -9,7 +9,6 @@ export default function ConferenceLayout({children}){
     return(
         <main>
         <header style={style.header} className={raleway.className} >
-            <h1>GLOBALMANTICS TAKING THE TECH TO THE GLOBE</h1>
         </header>
         <section>{children}</section>
         </main>
