@@ -1,0 +1,22 @@
+
+.html {
+padding: 0;
+box-sizing: border-box;
+margin: 0;
+}
+
+.header {
+    width: 100vw;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
