@@ -13,7 +13,7 @@ export default async function page(){
     return (
         <main className={styles.parentContainer}>
             <div>
-                Last Rendered: {new Date().toLocaleTimeString()}
+                Last Rendered: {new Date().toLocaleString()}
             </div>
             <div>
                 <h1 className={styles.tittleText}>welcome to speakers</h1>

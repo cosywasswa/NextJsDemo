@@ -26,7 +26,7 @@ const page = () => {
                 <Link href='/conference/speakers' className={styles.bgLinks}>View Speakers</Link>
                 </h2>
                 <h2 className={styles.bgText}>
-                <Link href='/conference/speakers' className={styles.bgLinks}>View Sessions</Link>
+                <Link href='/conference/sessions' className={styles.bgLinks}>View Sessions</Link>
                </h2>
            
         </main>
