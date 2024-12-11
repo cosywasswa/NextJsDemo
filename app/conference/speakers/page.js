@@ -1,4 +1,5 @@
 import styles from '../conference.module.css'
+import Link from 'next/link';
 
 async function fetchSpeakers() {
     const response = await fetch(
@@ -21,7 +22,9 @@ export default async function page(){
             <section>
             {data && data.speakers.map((speaker) =>( 
                     <div key={speaker.id} className={styles.infoContainer}> 
+                    <Link href={`/conference/speakers/${btoa(speaker.id)}`}>
                         <h3 className={styles.titleText}>{speaker.name}</h3>
+                        </Link>
                         <h5 className={styles.descText}>{speaker.bio}</h5>
                     </div>
                 )
